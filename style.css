@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+fieldset {
+    height: 470px;
+    width: 300px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid black;
+    border-top-left-radius: 20px ;
+    border-bottom-right-radius: 20px;
+}
+    label, input {
+    display: flex;
+}
+
+label {
+    margin-bottom: 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+    color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+     transition: 100ms;
+}
+
+button:hover {
+  background-color: red;
+  border: 2px solid red;
+  font-size: 15px;
+}
